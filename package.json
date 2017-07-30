@@ -1,0 +1,27 @@
+{
+  "name": "survey",
+  "version": "0.1.0",
+  "description": "A simple Node.js app that gives survey questions and keeps track of responses",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "mysql": "^2.14.0",
+    "sequelize": "^3.30.4"
+  },
+  "engines": {
+    "node": "0.10.46"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adamrmelnyk/survey"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Adam Melnyk",
+  "license": "MIT"
+}
